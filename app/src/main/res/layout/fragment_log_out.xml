@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.logOut.LogOutFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_logOut_head"
+        android:layout_marginTop="180dp"
+        android:text="Are you sure you want logout?"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_logOut"
+        android:text="@string/menu_logout"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/textView_logOut_head"
+        android:layout_centerHorizontal="true"
+        />
+
+</RelativeLayout>
