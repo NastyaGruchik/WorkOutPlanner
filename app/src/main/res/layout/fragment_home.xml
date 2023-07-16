@@ -29,6 +29,7 @@
         android:textStyle="bold"
         android:textSize="25sp"
         android:textColor="@color/darkPink"
+        android:paddingBottom="50dp"
         android:text="Welcome to Workout Planner app" />
 
     <TextView
@@ -43,20 +44,23 @@
         android:textColor="@color/darkPink"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:paddingBottom="50dp"
+
         android:text="upcoming event:" />
+
     <TextView
         android:id="@+id/textViewHomeProgramName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/TV1_home"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
         android:padding="8dp"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        android:layout_margin="8dp"
         android:text="You are not registered for any training"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_below="@id/TV1_home"/>
+        android:textSize="22sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textViewProgramHomeDescription"
@@ -64,7 +68,7 @@
         android:layout_height="wrap_content"
         android:textSize="16sp"
         android:padding="8dp"
-        android:text="It's time to take a seat in training"
+        android:text="Register now!"
         android:layout_below="@id/textViewHomeProgramName"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
