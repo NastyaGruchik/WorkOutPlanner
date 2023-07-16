@@ -8,7 +8,7 @@ The app integrates with Firebase for user authentication and real-time data upda
 
 - Browse and register for training programs
 - View program details, including name, description, and schedule
-- Receive reminders for upcoming training sessions
+- Receive reminders for upcoming training sessions in calendar
 - User authentication using Firebase Authentication
 - Real-time updates for training program data using Firebase Firestore
 
